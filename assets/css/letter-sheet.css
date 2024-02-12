@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Reenie Beanie";
+    src: url("../font/ReenieBeanie-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Protest Riot";
+    src: url("../font/ProtestRiot-Regular.ttf");
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #272626;
+    background: #e5a492;
+    font-weight: bold;
+}
+
+.sheet-letter {
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto;
+    background: url("../image/letter-img.jpg") center / cover no-repeat;
+    position: relative;
+}
+.main-sheet {
+    top: 20%;
+    left: 33%;
+    position: absolute;
+    width: 480px;
+    text-align: center;
+}
+.main-sheet .heading {
+    font-size: 5.2rem;
+}
+.main-sheet .desc {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    line-height: 2;
+}
