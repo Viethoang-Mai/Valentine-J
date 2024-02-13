@@ -43,7 +43,6 @@ body {
 }
 .mail:hover .cv {
     transform: translateY(-80px);
-    /* opacity: 1; */
 }
 
 .cv-rim {
